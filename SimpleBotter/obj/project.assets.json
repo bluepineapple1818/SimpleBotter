@@ -1,0 +1,154 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {},
+    "net6.0-windows7.0/win-x64": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Artem\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Artem\\Downloads\\nigerdos]\\SimpleBotter\\SimpleBotter.csproj",
+      "projectName": "SimpleBotter",
+      "projectPath": "C:\\Users\\Artem\\Downloads\\nigerdos]\\SimpleBotter\\SimpleBotter.csproj",
+      "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Artem\\Downloads\\nigerdos]\\SimpleBotter\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.200"
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Microsoft.AspNetCore.App.Ref\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.ref/index.json\".\r\n  The SSL connection could not be established, see inner exception.\r\n  Received an unexpected EOF or 0 bytes from the transport stream."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Microsoft.NETCore.App.Ref\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.ref/index.json\".\r\n  The SSL connection could not be established, see inner exception.\r\n  Received an unexpected EOF or 0 bytes from the transport stream."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Microsoft.NETCore.App.Host.win-x64\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.host.win-x64/index.json\".\r\n  The SSL connection could not be established, see inner exception.\r\n  Received an unexpected EOF or 0 bytes from the transport stream."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Microsoft.NETCore.App.Runtime.win-x64\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.win-x64/index.json\".\r\n  The SSL connection could not be established, see inner exception.\r\n  Received an unexpected EOF or 0 bytes from the transport stream."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Microsoft.WindowsDesktop.App.Ref\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/microsoft.windowsdesktop.app.ref/index.json\".\r\n  The SSL connection could not be established, see inner exception.\r\n  Received an unexpected EOF or 0 bytes from the transport stream."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Microsoft.AspNetCore.App.Runtime.win-x64\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.win-x64/index.json\".\r\n  The SSL connection could not be established, see inner exception.\r\n  Received an unexpected EOF or 0 bytes from the transport stream."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Microsoft.WindowsDesktop.App.Runtime.win-x64\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/microsoft.windowsdesktop.app.runtime.win-x64/index.json\".\r\n  The SSL connection could not be established, see inner exception.\r\n  Received an unexpected EOF or 0 bytes from the transport stream."
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Произошла ошибка при получении данных уязвимости пакета: The SSL connection could not be established, see inner exception."
+    }
+  ]
+}
